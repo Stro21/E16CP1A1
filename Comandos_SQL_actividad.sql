@@ -17,3 +17,4 @@ INSERT INTO calls (phone, date, user_id) VALUES ('988776655', '2019-03-04', 1);
 INSERT INTO calls (phone, date, user_id) VALUES ('988776655', '2019-03-04', 1);
 INSERT INTO calls (phone, date, user_id) VALUES ('988776655', '2019-03-04', 1);
 INSERT INTO users (first_name, email, last_name) VALUES ('Eduardo', 'eduardo.straub1@gmail.com', 'Straub');
+SELECT first_name, count (calls)  FROM users FULL JOIN calls ON (calls.user_id = users.id) group by first_name;
