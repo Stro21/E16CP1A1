@@ -12,3 +12,7 @@ INSERT INTO calls (phone, date, user_id) VALUES ('987654321', '2019-03-04', 2);
 INSERT INTO calls (phone, date, user_id) VALUES ('987654321', '2019-03-04', 2);
 INSERT INTO calls (phone, date, user_id) VALUES ('987654321', '2019-03-04', 2);
 INSERT INTO calls (phone, date, user_id) VALUES ('987654321', '2019-03-04', 2);
+INSERT INTO calls (phone, date, user_id) VALUES ('988776655', '2019-03-04', 1);
+INSERT INTO calls (phone, date, user_id) VALUES ('988776655', '2019-03-04', 1);
+INSERT INTO calls (phone, date, user_id) VALUES ('988776655', '2019-03-04', 1);
+INSERT INTO calls (phone, date, user_id) VALUES ('988776655', '2019-03-04', 1);
